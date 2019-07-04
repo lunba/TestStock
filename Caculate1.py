@@ -22,7 +22,7 @@ class CaculateClass():
     return result
 
   def insert_sql(db,sql):
-# 创建连接
+# 创建连接123
     db = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='root', db=db, charset='utf8')
     db.autocommit(True)
 # 创建游标
